@@ -12,18 +12,28 @@
 
         <title> CODE MYNTRA | Ruby On Rails | Nodejs | Consultants</title>
 
+
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="resources/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="resources/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="resources/favicons/manifest.json">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
     </head>
     <body>
-        <header>
+        <header id="about-us">
             <nav>
                 <div class="group">
                     <div class="logo">CodeMyntra</div>
                     <ul class="main-nav">
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">HOW WE DO</a></li>
-                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#about-us">ABOUT US</a></li>
+                        <li><a href="#how-we-do">HOW WE DO</a></li>
+                        <li><a href="#services">SERVICES</a></li>
                         <!-- <li><a href="#">PORTFOLIO</a></li> -->
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#contact-us">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -37,7 +47,7 @@
             </div>
         </header>
 
-        <section class="section-how-we-do">
+        <section class="section-how-we-do js--section-how-we-do" id="how-we-do">
             <div class="group">
                 <h3>How We Do</h3>
             </div>
@@ -85,7 +95,7 @@
             </div>
         </section>
 
-        <section class="section-services">
+        <section class="section-services" id="services">
             <div class="group">
                 <h3>Services</h3>
             </div>
@@ -217,7 +227,7 @@
             </div>
         </section> -->
 
-        <footer>
+        <footer id="contact-us">
             <div class="group">
                 <div class=" col span_1_of_4">
                     <h5>PRODUCTS</h5>
@@ -276,6 +286,8 @@
             </div>
         </footer>
 
-
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
     </body>
 </html>

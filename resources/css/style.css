@@ -83,6 +83,25 @@ header {
     color: #fff;
 }
 
+.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0px 2px 2px #efefef;
+}
+
+.sticky .logo {
+    color: #555;
+}
+
+.sticky .main-nav li a,
+.sticky .main-nav li a:link,
+.sticky .mani-nav li a:visited {
+    color: #555;
+}
+
 h1,
 h2,
 h3,
