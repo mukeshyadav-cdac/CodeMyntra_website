@@ -3,4 +3,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: http://codemyntra.com/sitemap.xml
+Sitemap: http://agilecaterpiller.com/sitemap.xml
