@@ -250,4 +250,8 @@ footer a:active {
     border-bottom: none;
 }
 
-
+a:link.pph, a:visited.pph {
+    text-decoration: none;
+    cursor: pointer;
+    color: #d35400;
+}
