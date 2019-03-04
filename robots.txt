@@ -3,4 +3,4 @@
 
 User-agent: *
 Allow: /
-Sitemap: http://agilecaterpiller.com/sitemap.xml
+Sitemap: https://www.agilecaterpillar.com/sitemap.xml
